@@ -1,4 +1,4 @@
-package com.spring.tasks.model;
+package com.spring.tasks.model.entity;
 
 /**
  * Created by tomasz on 7/9/16.

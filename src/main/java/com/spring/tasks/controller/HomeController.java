@@ -1,8 +1,7 @@
 package com.spring.tasks.controller;
 
-import com.spring.tasks.model.Task;
+import com.spring.tasks.model.entity.Task;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -11,9 +10,7 @@ import java.util.List;
 
 import static org.springframework.web.bind.annotation.RequestMethod.*;
 
-/**
- * Created by tomasz on 7/2/16.
- */
+
 @Controller
 public class HomeController {
 
