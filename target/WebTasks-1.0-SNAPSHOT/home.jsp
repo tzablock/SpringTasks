@@ -9,7 +9,7 @@
     <c:forEach items="${tasks}" var="task">
         <div style="background-color:white; color:black; padding:20px; border: 1px solid black;">
             <h2 style="margin: 30px">
-                <li>${task.name}</li>
+                <li>Id: ${task.id}  Name: ${task.name}</li>
             </h2>
             <p>${task.text}</p>
         </div>
